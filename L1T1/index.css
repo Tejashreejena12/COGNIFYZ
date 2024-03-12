@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+
+nav{
+  display: inline-block;
+}
+.navbar{
+  background-color:rgb(116, 178, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+nav a{
+  text-decoration: none;
+  letter-spacing: normal;
+  margin: 15px;
+  padding: 15px;
+  color:darkred;
+}
+.container{
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input{
+  height: 2rem;
+  width: 30rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+}
+.btn{
+  position: absolute;
+  top: 52%;
+  left: 46.5%;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: gold;
+}
+.welcome{
+  position: absolute;
+  margin-left: 8%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+h1{
+  padding-top: 30px;
+}
+
+p{
+  padding-top: 10px;
+}
